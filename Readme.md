@@ -1,6 +1,6 @@
 # **PolyCalc (short for Polyglot Calculator)**
 
-**PolyCalc** is a multi-language arithmetic calculator project aimed at mastering the basics of various programming languages. The project implements a simple calculator in multiple languages, including Python, C, C++, Go, TypeScript, JavaScript, Bash and PowerShell demonstrating the fundamentals of input handling, arithmetic operations, and formatted output.
+**PolyCalc** is a multi-language arithmetic calculator project aimed at mastering the basics of various programming languages. The project implements a simple calculator in multiple languages, including Python, C, C++, Go, TypeScript, JavaScript, Bash, PowerShell and PHP demonstrating the fundamentals of input handling, arithmetic operations, and formatted output.
 
 ---
 
@@ -23,6 +23,7 @@
 - **Bash**
 - **C++**
 - **PowerShell**
+- **PHP**
 
 ---
 
@@ -112,6 +113,13 @@ Follow the instructions below to run the calculator in your preferred language.
    .\simple_calculator.ps1
    ```
 
+### **PHP**
+
+1. Run the PHP script using the PHP command line:
+   ```powershell
+   php simple_calculator.php
+   ```
+
 ## Project Structure
 
 The project is organized into the following directories and files:
@@ -134,6 +142,8 @@ PolyCalc/
 │   └── simple_calculator.sh
 ├── PowerShell/
 │   └── simple_calculator.ps1
+├── PHP/
+│   └── simple_calculator.php
 ├── README.md
 └── .gitignore
 ```
