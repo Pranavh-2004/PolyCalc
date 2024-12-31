@@ -36,6 +36,12 @@ venv/
 *.dSYM/
 *.class
 
+# Makefile build artifacts
+*.d
+*.a
+*.so
+*.dll
+
 # Go-specific files
 *.exe
 *.test
