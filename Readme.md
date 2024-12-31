@@ -1,6 +1,6 @@
 # **PolyCalc (short for Polyglot Calculator)**
 
-**PolyCalc** is a multi-language arithmetic calculator project aimed at mastering the basics of various programming languages. The project implements a simple calculator in multiple languages, including Python, C, Go, TypeScript, and JavaScript, demonstrating the fundamentals of input handling, arithmetic operations, and formatted output.
+**PolyCalc** is a multi-language arithmetic calculator project aimed at mastering the basics of various programming languages. The project implements a simple calculator in multiple languages, including Python, C, C++, Go, TypeScript, JavaScript and Bash demonstrating the fundamentals of input handling, arithmetic operations, and formatted output.
 
 ---
 
@@ -20,6 +20,8 @@
 - **Go**
 - **TypeScript**
 - **JavaScript**
+- **Bash**
+- **C++**
 
 ---
 
@@ -87,6 +89,17 @@ Follow the instructions below to run the calculator in your preferred language.
    ./simple_calculator.sh
    ```
 
+### **C++**
+
+1. Use G++ to compile:
+   ```bash
+   g++ simple_calculator.cpp -o simple_calculator
+   ```
+2. Run the program:
+   ```bash
+   ./simple_calculator
+   ```
+
 ## Project Structure
 
 The project is organized into the following directories and files:
@@ -97,6 +110,8 @@ PolyCalc/
 │   └── simple_calculator.py
 ├── C/
 │   └── simple_calculator.c
+├── C++/
+│   └── simple_calculator.cpp
 ├── Go/
 │   └── simple_calculator.go
 ├── TypeScript/
