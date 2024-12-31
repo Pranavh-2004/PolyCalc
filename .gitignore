@@ -47,6 +47,13 @@ venv/
 *.test
 *.out
 
+# PHP-specific files
+composer.phar
+vendor/
+*.log
+*.sqlite
+*.sql
+
 # Logs and debugging files
 *.log
 npm-debug.log*
