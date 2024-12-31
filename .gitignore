@@ -1,0 +1,63 @@
+# Node modules (dependencies)
+node_modules/
+
+# pnpm store
+.pnpm-store/
+
+# Output directories for compiled files
+dist/
+build/
+out/
+
+# TypeScript-specific files
+*.tsbuildinfo
+
+# Python-specific files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+pip-wheel-metadata/
+*.pytest_cache/
+env/
+venv/
+.idea/
+.vscode/
+
+# C/C++ build artifacts
+*.o
+*.obj
+*.so
+*.out
+*.exe
+*.dll
+*.dSYM/
+*.class
+
+# Go-specific files
+*.exe
+*.test
+*.out
+
+# Logs and debugging files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE/Editor-specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Operating system files
+Thumbs.db
+desktop.ini
