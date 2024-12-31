@@ -12,7 +12,7 @@ def calculator():
             result = num1 * num2
         elif operator == "/":
             if num2 == 0:
-                return "Error: Division ny zero!"
+                return "Error: Division by zero!"
             return num1 / num2
         else:
             return "Invalid operator!"
