@@ -76,6 +76,17 @@ Follow the instructions below to run the calculator in your preferred language.
    node simple_calculator.js
    ```
 
+### **Bash Shell**
+
+1. Make the script executable:
+   ```bash
+   chmod +x simple_calculator.sh
+   ```
+2. Run the program:
+   ```bash
+   ./simple_calculator.sh
+   ```
+
 ## Project Structure
 
 The project is organized into the following directories and files:
@@ -83,15 +94,17 @@ The project is organized into the following directories and files:
 ```plaintext
 PolyCalc/
 ├── Python/
-│   └── calculator.py
+│   └── simple_calculator.py
 ├── C/
-│   └── calculator.c
+│   └── simple_calculator.c
 ├── Go/
-│   └── calculator.go
+│   └── simple_calculator.go
 ├── TypeScript/
-│   └── calculator.ts
+│   └── simple_calculator.ts
 ├── JavaScript/
-│   └── calculator.js
+│   └── simple_calculator.js
+├── Bash/
+│   └── simple_calculator.sh
 ├── README.md
 └── .gitignore
 ```
