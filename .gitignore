@@ -54,6 +54,14 @@ vendor/
 *.sqlite
 *.sql
 
+# MATLAB-specific files
+*.asv
+*.fig
+*.mlx
+*.mat
+*.mex*
+*.log
+
 # Logs and debugging files
 *.log
 npm-debug.log*
